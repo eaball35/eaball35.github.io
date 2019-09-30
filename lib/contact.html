@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!-- Page Title -->
+  <title>Contact Emily Ball</title>
+<!-- CSS Stylesheets -->
+  <link rel = "stylesheet" type = "text/css" href = "../styles/contact_styles.css" />
+  <link rel = "stylesheet" type = "text/css" href = "../styles/main_styles.css" />
+<!-- Normalize Stylesheet -->
+  <link rel = "stylesheet" type = "text/css" href = "../styles/normalize.css" />
+<!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark .fixed-top">
+  <!-- Nav Brand Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="../images/logo-01.png" alt="PUT TEXT HERE"/>
+    </a>
+  <!-- Mobile nav collapse into button dropdown menu   -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <!-- Nav links -->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+      <!-- Link 1 -->
+        <a class="nav-item nav-link" href="index.html">Home</a>
+      <!-- Link 2 -->
+        <a class="nav-item nav-link" href="about.html">About</a>
+      <!-- Link 3 -->
+        <a class="nav-item nav-link" href="portfolio.html">Projects</a>
+      <!-- Link 4 (current) -->
+      <a class="nav-item nav-link active" href="contact.html">Contact
+        <span class="sr-only">(current)</span>
+      </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+  <!-- Contact Info Section -->
+    <header>
+      <section id=info-container>
+        <section id="info-sect">
+          <ul>
+            <li id="emily_name">Emily Ball</li>
+            <li class="info">eaball35@gmail.com</li>
+            <li class='info'>(630)439-4513</li>
+            <li class='info'>
+              <a href="https://www.linkedin.com/in/emilyball/">linkedin/in/emilyball</a>
+            </li>
+          </ul>
+        </section>
+    
+        <aside id="laptop-img-aside">
+          <img src="../images/at-laptop-01.png" alt="REPLACE ALT TEXT"/>
+        </aside>
+      </section>
+    </header>
+
+  <!-- Contact Form -->
+    <section id="form-sect">
+      <h1>Let's Connect!</h1>
+      <form action="" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" name="name" type="text" placeholder="Sally Sue">
+        </div>
+    
+        <div>
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" placeholder="sue@example.com">
+        </div>
+
+        <div>
+          <label for="tel">Number:</label>
+          <input id="tel" name="tel" type="tel" placeholder="(123)456-7890  ">
+        </div>
+
+        <label for="message">Leave a message:</label>
+          <div>
+            <textarea id="message" name="message" placeholder="Interesting opportunities, questions, & advice..." rows='5' cols= '60'></textarea>
+          </div>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  
+  <!-- Footer Section - no form included -->
+  <footer> 
+    <section id="links-container">
+      <a href="index.html">
+        <img class="logo" src="../images/logo-01.png" alt="PUT TEXT HERE"/>
+      </a>
+      <section id="footer-endline">
+          <a class="footer-link" href="index.html">Home</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="portfolio.html">Projects</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </section>
+    </section>
+  </footer>
+
+
+
+<!-- Boostrap JS libs (only used for nav button collapse) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

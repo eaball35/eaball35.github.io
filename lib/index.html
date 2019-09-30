@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Emily Ball</title>
+  <!-- CSS Stylesheets -->
+    <link rel = "stylesheet" type = "text/css" href = "../styles/styles.css" />
+    <link rel = "stylesheet" type = "text/css" href = "../styles/main_styles.css" />
+    <link rel = "stylesheet" type = "text/css" href = "../styles/footer_styles.css" />
+  <!-- Normalize Stylesheet -->
+    <link rel = "stylesheet" type = "text/css" href = "../styles/normalize.css" />
+  <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway&display=swap" rel="stylesheet">
+  </head>
+  
+
+  <body>
+  <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark .fixed-top">
+    <!-- Nav Brand Logo -->
+      <a class="navbar-brand" href="index.html">
+        <img src="../images/logo-01.png" alt="PUT TEXT HERE"/>
+      </a>
+    <!-- Mobile nav collapse into button dropdown menu   -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <!-- Nav links -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        <!-- Link 1 (current) -->
+          <a class="nav-item nav-link active" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        <!-- Link 2 -->
+          <a class="nav-item nav-link" href="about.html">About</a>
+        <!-- Link 3 -->
+          <a class="nav-item nav-link" href="portfolio.html">Projects</a>
+        <!-- Link 4 -->
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+    
+    <main>
+    <!-- Intro Section -->
+      <section id="intro-sect">
+        <h1>Hello...</h1>
+        <p id="intro-name">My Name is <strong>Emily Ball.</strong></p>
+        <p id="intro-sub">I am an Advertiser turned Software Developer.</p>
+        <a id="learn-button" href="about.html">Learn More ></a>
+      </section>
+    </main>
+  
+  <!-- Footer - Form & Nav -->
+    <footer>
+    <!-- Bottom Links  -->
+      <aside id="links-container">
+        <section id="footer-links">
+          <a href="index.html">
+            <img class="logo" src="../images/logo-01.png" alt="PUT TEXT HERE"/>
+          </a>
+          <a class="footer-link" href="index.html">Home</a>
+          <a class="footer-link" href="about.html">About</a>
+          <a class="footer-link" href="portfolio.html">Projects</a>
+          <a class="footer-link" href="contact.html">Contact</a>
+        </section>
+      </aside>
+      
+    <!-- Footer Contact Form  -->
+      <section id="form-container">
+        <h4>Connect with Emily Ball</h4>
+        <section id="form-sect">
+          <section class="form-col">
+            <form action="" method="post">
+            <!-- Name/Email/Number inputs -->
+              <div>
+                <label for="name">Name :     </label>
+                <input id="name" name="name" type="text" placeholder="Sally Sue">
+              </div>
+          
+              <div>
+                <label for="email">Email :      </label>
+                <input id="email" name="email" type="email" placeholder="sue@example.com">
+              </div>
+      
+              <div>
+                <label for="tel">Number : </label>
+                <input id="tel" name="tel" type="tel" placeholder="(123)456-7890  ">
+              </div>
+          </section>
+              
+          <!-- Message textarea input -->
+            <section class="form-col">
+                <div>
+                  <textarea id="message" name="message" placeholder="Interesting opportunities, questions, & advice..." rows='3' cols= '60'></textarea>
+                </div>
+                <input type="submit" value="Send" style="float: right">
+            </section>
+          </form>
+          
+        </section>
+      </section>
+    </footer>
+  
+  <!-- Boostrap JS libs (only used for nav button collapse) -->  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

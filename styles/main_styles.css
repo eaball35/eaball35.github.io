@@ -1,0 +1,22 @@
+/* Main Styles */
+main {
+  font-family: 'Raleway', sans-serif;
+  color:#343A3F;
+}
+
+/* Nav Styles */
+nav img {
+  max-height: 75px
+}
+
+nav {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Footer Styles */
+footer {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  background-color: #343A3F;
+  padding: 2%
+}

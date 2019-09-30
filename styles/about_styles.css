@@ -1,0 +1,153 @@
+/* *{
+  border: solid red 1px
+} */
+
+
+/* General Styles */
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#contact-button {
+  border: solid #AD8152 2px;
+  background-color: #343A3F;
+  padding: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#contact-button span {
+  color:white;
+  font-weight: bolder;
+  font-size: 1.25rem
+}
+
+#contact-button:hover {
+  background-color: #AD8152
+}
+
+
+/* About-sect Styles */
+#about-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  background-color: #ebeff2;
+  padding: 5%
+}
+
+#about-container img {
+  max-width: 40%;
+  border-radius: 10%;
+  border: #AD8152 solid 5px;
+}
+
+#about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  padding: 4%;
+}
+#about-text p {
+  padding-top: 5%;
+  padding-bottom: 5%
+}
+
+
+/* Skill-sect Styles */
+#skills-container {
+  margin: 5%;
+}
+
+#skills-container header {
+  display: flex;
+  justify-content: center
+}
+
+.skill-row {
+  display: flex;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+  margin: 2%
+}
+
+.skill img {
+  max-width: 25%;
+  max-height: 100px;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.skill-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding: 5%;
+}
+.skill-text h2 {
+  font-size: 1.75rem;
+}
+
+
+
+
+/* Education-sect Styles */
+#education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebeff2;
+  padding: 5%
+}
+
+#education-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 75%;
+  filter: grayscale(100%)
+}
+
+.educ-sect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5%
+}
+
+.educ-text {
+  margin-right: 3%;
+  text-decoration: none;
+}
+
+.educ-text h2 {
+  color:#AD8152;
+}
+.educ-text h2:hover {
+  color:#343A3F
+}
+
+.educ-text h4 {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: black
+}
+
+.educ-text h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.educ-text a:hover {
+  text-decoration: none
+}
+
+.educ-img:hover {
+  filter: blur(2px)
+}

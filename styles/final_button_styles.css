@@ -1,0 +1,23 @@
+/* Final Button-sect Styles */
+#final-button-sect {
+  display:flex;
+  justify-content :center;
+  padding: 5%;
+}
+
+#final-button-sect a {
+  padding: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: solid #AD8152 2px;
+  background-color: #343A3F;
+  color:white;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  text-decoration: none
+}
+
+
+#final-button-sect a:hover {
+  background-color: #AD8152
+}
