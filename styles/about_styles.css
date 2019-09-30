@@ -16,7 +16,8 @@ h2 {
   padding-right: 10%;
   color:white;
   font-weight: bolder;
-  font-size: 1.25rem
+  font-size: 1.25rem;
+  text-decoration: none
 }
 
 #contact-button:hover {
